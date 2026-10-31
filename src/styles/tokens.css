@@ -1,0 +1,49 @@
+/* Proposed creative tokens; reconcile with shared PROJECT CONFIGURATION. */
+:root {
+  color-scheme: dark;
+  --color-background: #101311;
+  --color-surface: #1b211d;
+  --color-text: #f2eee4;
+  --color-muted: #bdbfb5;
+  --color-accent: #d6b98c;
+  --color-border: #626b60;
+  --color-focus: #ffe0a3;
+  --color-scrim: rgb(0 0 0 / 76%);
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: Arial, Helvetica, sans-serif;
+  --text-label: 0.875rem;
+  --text-body: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  --text-title: clamp(2.5rem, 1.25rem + 5vw, 7rem);
+  --leading-body: 1.6;
+  --leading-title: 1.05;
+  --tracking-label: 0.12em;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --gutter: clamp(1.25rem, 4vw, 5rem);
+  --content-max: 90rem;
+  --copy-max: 34rem;
+  --control-min: 2.75rem;
+  --radius-control: 0.125rem;
+  --z-media: 0;
+  --z-scrim: 1;
+  --z-content: 2;
+  --z-navigation: 3;
+  --z-controls: 4;
+  --duration-feedback: 160ms;
+  --duration-reveal: 480ms;
+  --ease-reveal: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-distance: 1.5rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-feedback: 0ms;
+    --duration-reveal: 0ms;
+    --motion-distance: 0rem;
+  }
+}

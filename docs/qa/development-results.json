@@ -1,0 +1,1911 @@
+{
+  "config": {
+    "argv": [
+      "/Users/phanvanhieu/.nvm/versions/node/v22.22.3/bin/node",
+      "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/node_modules/.bin/playwright",
+      "test"
+    ],
+    "configFile": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/playwright.config.ts",
+    "rootDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium-1440",
+        "name": "chromium-1440",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium-1920",
+        "name": "chromium-1920",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium-768",
+        "name": "chromium-768",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium-390",
+        "name": "chromium-390",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "firefox-1440",
+        "name": "firefox-1440",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "firefox-1920",
+        "name": "firefox-1920",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "firefox-768",
+        "name": "firefox-768",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "firefox-390",
+        "name": "firefox-390",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-1440",
+        "name": "webkit-1440",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-1920",
+        "name": "webkit-1920",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-768",
+        "name": "webkit-768",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "webkit-390",
+        "name": "webkit-390",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium-1440",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium-1440"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium-1920",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium-1920"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium-768",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium-768"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "chromium-390",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "chromium",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium-390"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "firefox-1440",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "firefox",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox-1440"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "firefox-1920",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "firefox",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox-1920"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "firefox-768",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "firefox",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox-768"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "firefox-390",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "firefox",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox-390"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "webkit-1440",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "webkit",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-1440"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "webkit-1920",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "webkit",
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-1920"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "webkit-768",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "webkit",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-768"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "webkit-390",
+        "testDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "snapshotDir": "/Users/phanvanhieu/Documents/CaNhan/MyProject/landing-page-vehicle/tests/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4173",
+          "trace": "retain-on-failure",
+          "browserName": "webkit",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "deviceScaleFactor": 2
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit-390"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run dev -- --host 127.0.0.1 --port 4173",
+      "url": "http://127.0.0.1:4173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "experience.spec.ts",
+      "file": "experience.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-1440",
+              "projectName": "chromium-1440",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1570,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:28.623Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZWxlbWVudCIsImV2ZW50IiwiZmlyc3QtaW5wdXQiLCJpbnRlcmFjdGlvbi1jb250ZW50ZnVsLXBhaW50IiwibGFyZ2VzdC1jb250ZW50ZnVsLXBhaW50IiwibGF5b3V0LXNoaWZ0IiwibG9uZy1hbmltYXRpb24tZnJhbWUiLCJsb25ndGFzayIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiLCJzb2Z0LW5hdmlnYXRpb24iLCJ2aXNpYmlsaXR5LXN0YXRlIl0sImNscyI6MC4wNDI3OTUxMzg4ODg4ODg4OSwibGNwIjoxNjQsImV2ZW50RHVyYXRpb25zIjpbNDAsMjQsMzIsMzIsMzIsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsNDgsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMTYsMTYsMTYsMTYsMTYsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMTYsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMjQsMTYsMTYsMTYsMTYsMTYsMTZdLCJmcmFtZXMiOlsxNi42OTk5OTk5OTk5OTk5OTYsMTYuNzAwMDAwMDAwMDAwMDAzLDE2LjU5OTk5OTk5OTk5OTk5NCwxNi43MDAwMDAwMDAwMDAwMDMsMTYuNzAwMDAwMDAwMDAwMDAzLDE2LjU5OTk5OTk5OTk5OTk5NCwxNi41OTk5OTk5OTk5OTk5OTQsMTYuNzAwMDAwMDAwMDAwMDE3LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjcwMDAwMDAwMDAwMDAxNywxNi42OTk5OTk5OTk5OTk5OSwxNi41OTk5OTk5OTk5OTk5OTQsMTYuNzAwMDAwMDAwMDAwMDE3LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjYwMDAwMDAwMDAwMDAyMywxNi42OTk5OTk5OTk5OTk5OSwxNi42OTk5OTk5OTk5OTk5OSwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNjk5OTk5OTk5OTk5OTksMTYuNTk5OTk5OTk5OTk5OTY2LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42OTk5OTk5OTk5OTk5OSwxNi42OTk5OTk5OTk5OTk5OSwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNjk5OTk5OTk5OTk5OTksMTYuNjk5OTk5OTk5OTk5OTksMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjYwMDAwMDAwMDAwMDAyMywxNi42OTk5OTk5OTk5OTk5MzIsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjYwMDAwMDAwMDAwMDAyMywxNi43OTk5OTk5OTk5OTk5NTUsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjYwMDAwMDAwMDAwMDAyMywxNi42OTk5OTk5OTk5OTk5MzIsMTYuNjAwMDAwMDAwMDAwMDIzLDE2Ljc5OTk5OTk5OTk5OTk1NSwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjYwMDAwMDAwMDAwMDAyMywxNi43OTk5OTk5OTk5OTk5NTUsMTYuNTk5OTk5OTk5OTk5OTEsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjYwMDAwMDAwMDAwMDEzNiwxNi42OTk5OTk5OTk5OTk4MTgsMTYuNjAwMDAwMDAwMDAwMTM2LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5MSwxNi43OTk5OTk5OTk5OTk5NTUsMTYuNjAwMDAwMDAwMDAwMTM2LDE2LjY5OTk5OTk5OTk5OTgxOCwxNi42MDAwMDAwMDAwMDAxMzYsMTYuNzk5OTk5OTk5OTk5OTU1LDE2LjU5OTk5OTk5OTk5OTkxLDE2LjYwMDAwMDAwMDAwMDEzNiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5ODE4LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42MDAwMDAwMDAwMDAxMzYsMTYuNjk5OTk5OTk5OTk5ODE4LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42MDAwMDAwMDAwMDAxMzYsMTYuNjk5OTk5OTk5OTk5ODE4LDE2LjcwMDAwMDAwMDAwMDA0NV19"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-6ddeab71f48f762c195c",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-1440",
+              "projectName": "chromium-1440",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 363,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:28.623Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-4ac2d247be112b6a9470",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-1440",
+              "projectName": "chromium-1440",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 503,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:29.211Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-8ace2c2edfc208c20f7d",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-1920",
+              "projectName": "chromium-1920",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1312,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:29.963Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZWxlbWVudCIsImV2ZW50IiwiZmlyc3QtaW5wdXQiLCJpbnRlcmFjdGlvbi1jb250ZW50ZnVsLXBhaW50IiwibGFyZ2VzdC1jb250ZW50ZnVsLXBhaW50IiwibGF5b3V0LXNoaWZ0IiwibG9uZy1hbmltYXRpb24tZnJhbWUiLCJsb25ndGFzayIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiLCJzb2Z0LW5hdmlnYXRpb24iLCJ2aXNpYmlsaXR5LXN0YXRlIl0sImNscyI6MC4wMzkwNzg3NzYwNDE2NjY2NjYsImxjcCI6MTA4LCJldmVudER1cmF0aW9ucyI6WzI0LDI0LDI0LDI0LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDQ4LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDE2LDE2LDE2LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2LDE2XSwiZnJhbWVzIjpbMTYuNywxNi42LDE2LjY5OTk5OTk5OTk5OTk5NiwzMy4zLDE2LjYwMDAwMDAwMDAwMDAxLDE2LjcwMDAwMDAwMDAwMDAwMywxNi42OTk5OTk5OTk5OTk5OSwxNi41OTk5OTk5OTk5OTk5OTQsMTYuNzAwMDAwMDAwMDAwMDE3LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjcwMDAwMDAwMDAwMDAxNywxNi42OTk5OTk5OTk5OTk5OSwxNi41OTk5OTk5OTk5OTk5OTQsMTYuNzAwMDAwMDAwMDAwMDE3LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjYwMDAwMDAwMDAwMDAyMywxNi41OTk5OTk5OTk5OTk5NjYsMTYuODAwMDAwMDAwMDAwMDEsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjY5OTk5OTk5OTk5OTk5LDE2LjU5OTk5OTk5OTk5OTk2NiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNTk5OTk5OTk5OTk5OTY2LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42OTk5OTk5OTk5OTk5OSwxNi41OTk5OTk5OTk5OTk5NjYsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjU5OTk5OTk5OTk5OTk2NiwxNi42OTk5OTk5OTk5OTk5OSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjYwMDAwMDAwMDAwMDAyMywxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzk5OTk5OTk5OTk5OTU1LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42OTk5OTk5OTk5OTk5MzIsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjYwMDAwMDAwMDAwMDAyMywxNi43OTk5OTk5OTk5OTk5NTUsMTYuNSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzk5OTk5OTk5OTk5OTU1LDE2LjUsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjY5OTk5OTk5OTk5OTkzMiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjY5OTk5OTk5OTk5OTkzMiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjYwMDAwMDAwMDAwMDAyMywxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42OTk5OTk5OTk5OTk4MTgsMTYuNjAwMDAwMDAwMDAwMTM2LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42OTk5OTk5OTk5OTk4MTgsMTYuNjAwMDAwMDAwMDAwMTM2LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5MSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNzAwMDAwMDAwMDAwMDQ1XX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-e383fa473f3d1d2349d2",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-1920",
+              "projectName": "chromium-1920",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 190,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:30.646Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-6d393d550b2d998c9d19",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-1920",
+              "projectName": "chromium-1920",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 507,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:30.930Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-977abc853a53d34fafa0",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-768",
+              "projectName": "chromium-768",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1334,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:31.624Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZWxlbWVudCIsImV2ZW50IiwiZmlyc3QtaW5wdXQiLCJpbnRlcmFjdGlvbi1jb250ZW50ZnVsLXBhaW50IiwibGFyZ2VzdC1jb250ZW50ZnVsLXBhaW50IiwibGF5b3V0LXNoaWZ0IiwibG9uZy1hbmltYXRpb24tZnJhbWUiLCJsb25ndGFzayIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiLCJzb2Z0LW5hdmlnYXRpb24iLCJ2aXNpYmlsaXR5LXN0YXRlIl0sImNscyI6MC4wMzgyMDgwMDc4MTI1LCJsY3AiOjEwOCwiZXZlbnREdXJhdGlvbnMiOlsyNCwzMiwyNCwyNCwyNCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCw0MCwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNF0sImZyYW1lcyI6WzE2LjcwMDAwMDAwMDAwMDAwMywxNi42LDE2LjY5OTk5OTk5OTk5OTk5NiwxNi42OTk5OTk5OTk5OTk5OTYsMTYuNzAwMDAwMDAwMDAwMDAzLDE2LjYwMDAwMDAwMDAwMDAxLDE2LjY5OTk5OTk5OTk5OTk5LDE2LjU5OTk5OTk5OTk5OTk5NCwxNi43MDAwMDAwMDAwMDAwMTcsMTYuNjk5OTk5OTk5OTk5OTksMTYuNTk5OTk5OTk5OTk5OTk0LDE2LjcwMDAwMDAwMDAwMDAxNywxNi41OTk5OTk5OTk5OTk5OTQsMTYuODAwMDAwMDAwMDAwMDEsMTYuNSwxNi42OTk5OTk5OTk5OTk5OSwxNi42OTk5OTk5OTk5OTk5OSwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNjk5OTk5OTk5OTk5OTksMTYuNjk5OTk5OTk5OTk5OTksMTYuNjk5OTk5OTk5OTk5OTksMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjgwMDAwMDAwMDAwMDAxLDE2LjU5OTk5OTk5OTk5OTk2NiwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNTk5OTk5OTk5OTk5OTY2LDE2LjYwMDAwMDAwMDAwMDAyMywxNi44MDAwMDAwMDAwMDAwMSwxNi41OTk5OTk5OTk5OTk5NjYsMTYuNjk5OTk5OTk5OTk5OTksMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42OTk5OTk5OTk5OTk5MzIsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjYwMDAwMDAwMDAwMDAyMywxNi41OTk5OTk5OTk5OTk5MSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjU5OTk5OTk5OTk5OTkxLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjYwMDAwMDAwMDAwMDAyMywxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjYwMDAwMDAwMDAwMDAyMywxNi43MDAwMDAwMDAwMDAwNDUsMTYuNTk5OTk5OTk5OTk5OTEsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi42OTk5OTk5OTk5OTk5MzIsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5MSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjU5OTk5OTk5OTk5OTkxLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5MSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNTk5OTk5OTk5OTk5OTEsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjU5OTk5OTk5OTk5OTkxLDE2Ljc5OTk5OTk5OTk5OTk1NSwxNi42MDAwMDAwMDAwMDAxMzYsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjU5OTk5OTk5OTk5OTkxLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5MV19"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-01b1c08563ce89c6e0b8",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-768",
+              "projectName": "chromium-768",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 243,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:31.670Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-5b19b54641f926cc0dcb",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-768",
+              "projectName": "chromium-768",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 497,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:32.013Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-c1d7ffd8c4986c349923",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-390",
+              "projectName": "chromium-390",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1233,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:32.728Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZWxlbWVudCIsImV2ZW50IiwiZmlyc3QtaW5wdXQiLCJpbnRlcmFjdGlvbi1jb250ZW50ZnVsLXBhaW50IiwibGFyZ2VzdC1jb250ZW50ZnVsLXBhaW50IiwibGF5b3V0LXNoaWZ0IiwibG9uZy1hbmltYXRpb24tZnJhbWUiLCJsb25ndGFzayIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiLCJzb2Z0LW5hdmlnYXRpb24iLCJ2aXNpYmlsaXR5LXN0YXRlIl0sImNscyI6MC4wMzE3NDk4NTE4OTU3MzQ2LCJsY3AiOjEwMCwiZXZlbnREdXJhdGlvbnMiOls0OCw0MCw0MCw0MCwzMiw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCw0OCwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNl0sImZyYW1lcyI6WzE2LjYsMTYuNzAwMDAwMDAwMDAwMDAzLDE2LjY5OTk5OTk5OTk5OTk5NiwxNi42OTk5OTk5OTk5OTk5OTYsMTYuNjAwMDAwMDAwMDAwMDEsMTYuNzAwMDAwMDAwMDAwMDAzLDE2LjU5OTk5OTk5OTk5OTk5NCwzMy40MDAwMDAwMDAwMDAwMDYsMTYuNTk5OTk5OTk5OTk5OTk0LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjcwMDAwMDAwMDAwMDAxNywxNi41OTk5OTk5OTk5OTk5OTQsMTYuNjk5OTk5OTk5OTk5OTksMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjY5OTk5OTk5OTk5OTk5LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjY5OTk5OTk5OTk5OTk5LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5NjYsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjgwMDAwMDAwMDAwMDAxLDE2LjU5OTk5OTk5OTk5OTk2NiwxNi42OTk5OTk5OTk5OTk5OSwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNjk5OTk5OTk5OTk5OTksMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjgwMDAwMDAwMDAwMDAxLDE2LjU5OTk5OTk5OTk5OTk2NiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNjk5OTk5OTk5OTk5OTksMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjY5OTk5OTk5OTk5OTkzMiwxNi42MDAwMDAwMDAwMDAwMjMsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjU5OTk5OTk5OTk5OTkxLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjYwMDAwMDAwMDAwMDAyMywxNi43MDAwMDAwMDAwMDAwNDUsMTYuNjk5OTk5OTk5OTk5OTMyLDE2LjYwMDAwMDAwMDAwMDAyMywxNi43MDAwMDAwMDAwMDAwNDUsMTYuNTk5OTk5OTk5OTk5OTEsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjYwMDAwMDAwMDAwMDAyMywxNi43OTk5OTk5OTk5OTk5NTUsMTYuNjAwMDAwMDAwMDAwMDIzLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5MSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjU5OTk5OTk5OTk5OTkxLDE2LjcwMDAwMDAwMDAwMDA0NSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNTk5OTk5OTk5OTk5OTEsMTYuNzAwMDAwMDAwMDAwMDQ1LDE2LjcwMDAwMDAwMDAwMDA0NSwxNi41OTk5OTk5OTk5OTk5MSwxNi43MDAwMDAwMDAwMDAwNDUsMTYuNTk5OTk5OTk5OTk5OTEsMTYuNzAwMDAwMDAwMDAwMDQ1XX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-5855381df2545b9b8b12",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-390",
+              "projectName": "chromium-390",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 181,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:33.306Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-7b8ba15a779accd52469",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-390",
+              "projectName": "chromium-390",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 467,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:33.593Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-4c451491e3b1118f918b",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-1440",
+              "projectName": "firefox-1440",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2904,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:34.280Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjQ1NywiZXZlbnREdXJhdGlvbnMiOltdLCJmcmFtZXMiOlsyNS4yMDAwMDAwMDAwMDAwMTcsNy42OTk5OTk5OTk5OTk5ODksOC42ODAwMDAwMDAwMDAwMDcsOC40MTk5OTk5OTk5OTk5ODcsMTYuMTIwMDAwMDAwMDAwMDA1LDI1LjgwMDAwMDAwMDAwMDAxLDI0Ljk2MDAwMDAwMDAwMDAwOCw3LjYyMDAwMDAwMDAwMDAwNDUsOC43MTk5OTk5OTk5OTk5Nyw3LjkwMDAwMDAwMDAwMDAzNCw4Ljg3OTk5OTk5OTk5OTk5NSw4LjE5OTk5OTk5OTk5OTk4OSw4LjcxOTk5OTk5OTk5OTk3LDguMDgwMDAwMDAwMDAwMDQxLDguNTYwMDAwMDAwMDAwMDAyLDguMjk5OTk5OTk5OTk5OTU1LDguMTQwMDAwMDAwMDAwMDQzLDguNTc5OTk5OTk5OTk5OTg0LDguMzAwMDAwMDAwMDAwMDExLDguMTM5OTk5OTk5OTk5OTg2LDguNTQwMDAwMDAwMDAwMDIsOC4zMTk5OTk5OTk5OTk5OTMsMTYuMTIwMDAwMDAwMDAwMDA1LDguOTM5OTk5OTk5OTk5OTk4LDguMjU5OTk5OTk5OTk5OTkxLDguMzM5OTk5OTk5OTk5OTc1LDMzLjM0MDAwMDAwMDAwMDAzLDguMzE5OTk5OTk5OTk5OTkzLDguMzM5OTk5OTk5OTk5OTc1LDcuNjAwMDAwMDAwMDAwMDIzLDguNzU5OTk5OTk5OTk5OTkxLDguNjgwMDAwMDAwMDAwMDA3LDguMjc5OTk5OTk5OTk5OTczLDguMzQwMDAwMDAwMDAwMDMyLDguMzM5OTk5OTk5OTk5OTc1LDguMzQwMDAwMDAwMDAwMDMyLDguMzE5OTk5OTk5OTk5OTM2LDguMzQwMDAwMDAwMDAwMDMyLDguMzQwMDAwMDAwMDAwMDMyLDguMTIwMDAwMDAwMDAwMDA1LDguMjc5OTk5OTk5OTk5OTczLDguNjIwMDAwMDAwMDAwMDA1LDcuNzc5OTk5OTk5OTk5OTczLDguOTIwMDAwMDAwMDAwMDczLDguMjU5OTk5OTk5OTk5OTkxLDguMzM5OTk5OTk5OTk5OTE4LDguMzQwMDAwMDAwMDAwMDMyLDguMzQwMDAwMDAwMDAwMDMyLDcuNTU5OTk5OTk5OTk5OTQ1LDkuMTgwMDAwMDAwMDAwMDY0LDcuNjU5OTk5OTk5OTk5OTY4LDguNzIwMDAwMDAwMDAwMDI3LDE2Ljg3OTk5OTk5OTk5OTk5NSw4LjMxOTk5OTk5OTk5OTkzNiw4LjM0MDAwMDAwMDAwMDAzMiw4LjM0MDAwMDAwMDAwMDAzMiw4LjEyMDAwMDAwMDAwMDAwNSw4LjU1OTk5OTk5OTk5OTk0NSw4LjMwMDAwMDAwMDAwMDA2OCw3LjYwMDAwMDAwMDAwMDAyMyw5LjE1OTk5OTk5OTk5OTk2OCw4LjI0MDAwMDAwMDAwMDAwOSw4LjMzOTk5OTk5OTk5OTkxOCw4LjM0MDAwMDAwMDAwMDAzMiw4LjM0MDAwMDAwMDAwMDAzMiw4LjEyMDAwMDAwMDAwMDAwNSw4LjM0MDAwMDAwMDAwMDAzMiw4LjU1OTk5OTk5OTk5OTk0NSw4LjI5OTk5OTk5OTk5OTk1NSw4LjI4MDAwMDAwMDAwMDA4NiwxNi4zMTk5OTk5OTk5OTk5MzYsOC41MTk5OTk5OTk5OTk5ODIsOC41ODAwMDAwMDAwMDAwNDEsOC4wODAwMDAwMDAwMDAwNDEsOC4zNjAwMDAwMDAwMDAwMTQsOC41NTk5OTk5OTk5OTk5NDUsOC4xMDAwMDAwMDAwMDAwMjMsOC4zMTk5OTk5OTk5OTk5MzYsNy44MDAwMDAwMDAwMDAwNjgsOC44Nzk5OTk5OTk5OTk5OTUsOC41NTk5OTk5OTk5OTk5NDUsOC4zMjAwMDAwMDAwMDAwNSw4LjEyMDAwMDAwMDAwMDAwNSw4LjU1OTk5OTk5OTk5OTk0NSwxNi40NDAwMDAwMDAwMDAwNTUsOC41NTk5OTk5OTk5OTk5NDUsMCw4LjMwMDAwMDAwMDAwMDA2OCw4LjEzOTk5OTk5OTk5OTk4Niw4LjEzOTk5OTk5OTk5OTk4Niw4Ljc3OTk5OTk5OTk5OTk3Myw4LjA4MDAwMDAwMDAwMDA0MSw4LjUzOTk5OTk5OTk5OTk2NCw3LjQ2MDAwMDAwMDAwMDAzNiw5LjI3OTk5OTk5OTk5OTk3Myw4LjI0MDAwMDAwMDAwMDAwOSw4LjM1OTk5OTk5OTk5OTksOC4yMDAwMDAwMDAwMDAwNDUsOC40NjAwMDAwMDAwMDAwMzYsOC4zMTk5OTk5OTk5OTk5MzYsOC4zNDAwMDAwMDAwMDAxNDYsOC4zMzk5OTk5OTk5OTk5MTgsNy41Mzk5OTk5OTk5OTk5NjQsOC45NjAwMDAwMDAwMDAwMzYsOC41MTk5OTk5OTk5OTk5ODIsMTUuODYwMDAwMDAwMDAwMTI3LDM0LjEzOTk5OTk5OTk5OTg3LDguMjk5OTk5OTk5OTk5OTU1LDguMjAwMDAwMDAwMDAwMDQ1LDguNSw4LjI5OTk5OTk5OTk5OTk1NSwzMy4zNDAwMDAwMDAwMDAxNDYsOC4zMzk5OTk5OTk5OTk5MTgsOC4zMzk5OTk5OTk5OTk5MTgsOC4zMjAwMDAwMDAwMDAxNjQsMTYuNjU5OTk5OTk5OTk5ODU0LDguMzQwMDAwMDAwMDAwMTQ2LDguMzM5OTk5OTk5OTk5OTE4LDguMzE5OTk5OTk5OTk5OTM2LDcuOTAwMDAwMDAwMDAwMDkxLDguODE5OTk5OTk5OTk5OTM2LDguMjc5OTk5OTk5OTk5OTczLDguMjU5OTk5OTk5OTk5OTkxLDguNDIwMDAwMDAwMDAwMDczLDguMzE5OTk5OTk5OTk5OTM2LDcuNzIwMDAwMDAwMDAwMDI3LDkuMDE5OTk5OTk5OTk5OTgyLDguMjU5OTk5OTk5OTk5OTkxLDguMzQwMDAwMDAwMDAwMTQ2LDguMzM5OTk5OTk5OTk5OTE4LDguMzM5OTk5OTk5OTk5OTE4LDcuNjgwMDAwMDAwMDAwMDY0LDkuMDM5OTk5OTk5OTk5OTY0LDE2LjYwMDAwMDAwMDAwMDEzNiw4LjMzOTk5OTk5OTk5OTkxOCw4LjMxOTk5OTk5OTk5OTkzNiw3LjkwMDAwMDAwMDAwMDA5MSw4LjUxOTk5OTk5OTk5OTk4Miw3Ljg1OTk5OTk5OTk5OTksOC45MDAwMDAwMDAwMDAwOTEsNy45MDAwMDAwMDAwMDAwOTEsOSw4LjI1OTk5OTk5OTk5OTk5MSw3Ljg3OTk5OTk5OTk5OTg4Miw4Ljg0MDAwMDAwMDAwMDE0Niw3LjY3OTk5OTk5OTk5OTgzNiw5LjAxOTk5OTk5OTk5OTk4Miw4LjA2MDAwMDAwMDAwMDE3MywxNi44Mzk5OTk5OTk5OTk5MTgsOC4zMzk5OTk5OTk5OTk5MTgsOC4wNjAwMDAwMDAwMDAxNzMsNy44Mzk5OTk5OTk5OTk5MTgsOS4xODAwMDAwMDAwMDAwNjQsMjQuMzk5OTk5OTk5OTk5ODY0LDgsOS4yNzk5OTk5OTk5OTk5NzMsOC4yNDAwMDAwMDAwMDAwMDksOC4xNDAwMDAwMDAwMDAxLDE2Ljg1OTk5OTk5OTk5OTksOC4zNDAwMDAwMDAwMDAxNDYsNy4zOTk5OTk5OTk5OTk4NjQsOS4zMjAwMDAwMDAwMDAxNjQsOC4wNzk5OTk5OTk5OTk5MjcsNy44Nzk5OTk5OTk5OTk4ODIsOS4wNjAwMDAwMDAwMDAxNzMsOC4wNTk5OTk5OTk5OTk5NDUsOC4xMzk5OTk5OTk5OTk4NzMsOC43ODAwMDAwMDAwMDAyLDcuNjE5OTk5OTk5OTk5ODkxLDI1LjQ4MDAwMDAwMDAwMDAxOCw4LjUzOTk5OTk5OTk5OTk2NCw4LjMxOTk5OTk5OTk5OTkzNiw4LjEyMDAwMDAwMDAwMDExOCw4LjU1OTk5OTk5OTk5OTk0NSw4LjI5OTk5OTk5OTk5OTk1NSwyNSw3LjQ0MDAwMDAwMDAwMDA1NSw5LjI5OTk5OTk5OTk5OTk1NSw4LjI1OTk5OTk5OTk5OTk5MSw3Ljg4MDAwMDAwMDAwMDEwOSwxNi41LDguMzE5OTk5OTk5OTk5OTM2LDM0LDguMjk5OTk5OTk5OTk5OTU1LDcuNTYwMDAwMDAwMDAwMTczLDkuMTc5OTk5OTk5OTk5ODM2LDcuODQwMDAwMDAwMDAwMTQ1NSw4LjI1OTk5OTk5OTk5OTk5MSw4LjUzOTk5OTk5OTk5OTk2NCwxNi43NTk5OTk5OTk5OTk5OSw4LjU1OTk5OTk5OTk5OTk0NSw4LjI5OTk5OTk5OTk5OTk1NSw3LjYwMDAwMDAwMDAwMDEzNiw4Ljc0MDAwMDAwMDAwMDAwOSw4LjY2MDAwMDAwMDAwMDA4Miw3LjU1OTk5OTk5OTk5OTk0NSw5LjE3OTk5OTk5OTk5OTgzNiw4LjI2MDAwMDAwMDAwMDIxOCw4LjMzOTk5OTk5OTk5OTY5LDcuOTAwMDAwMDAwMDAwMDkxXX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-77740a11b54721dcae5c",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-1440",
+              "projectName": "firefox-1440",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1572,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:34.300Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-c44de0c163e3df08d1d1",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-1440",
+              "projectName": "firefox-1440",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1085,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:36.836Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-ee7fcd1b8b7d2e77eb10",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-1920",
+              "projectName": "firefox-1920",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2349,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:38.225Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjc4LCJldmVudER1cmF0aW9ucyI6WzI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0LDI0XSwiZnJhbWVzIjpbMTYuMTQsOC4yNjAwMDAwMDAwMDAwMDUsOS4yMTk5OTk5OTk5OTk5OTksMTYuNTgsNy45NTk5OTk5OTk5OTk5OTQsOC43NjAwMDAwMDAwMDAwMDUsOC4yODAwMDAwMDAwMDAwMDEsOC4zNDAwMDAwMDAwMDAwMDMsOC4zNDAwMDAwMDAwMDAwMDMsOC4zMTk5OTk5OTk5OTk5OTMsOC4zNDAwMDAwMDAwMDAwMDMsOC4zMTk5OTk5OTk5OTk5OTMsMTYuMDk5OTk5OTk5OTk5OTk0LDE3LjA0MDAwMDAwMDAwMDAyLDMzLjUxOTk5OTk5OTk5OTk4LDguMzQwMDAwMDAwMDAwMDAzLDguMzQwMDAwMDAwMDAwMDAzLDguMzM5OTk5OTk5OTk5OTc1LDguMzQwMDAwMDAwMDAwMDMyLDcuODAwMDAwMDAwMDAwMDExLDguOTE5OTk5OTk5OTk5OTU5LDguMjYwMDAwMDAwMDAwMDQ4LDguMzM5OTk5OTk5OTk5OTc1LDcuNTc5OTk5OTk5OTk5OTg0LDkuMTYwMDAwMDAwMDAwMDI1LDguMjU5OTk5OTk5OTk5OTkxLDguMzM5OTk5OTk5OTk5OTc1LDguMzIwMDAwMDAwMDAwMDUsNy43OTk5OTk5OTk5OTk5NTQ1LDE3LjIwMDAwMDAwMDAwMDA0NSw4LjMzOTk5OTk5OTk5OTk3NSw4LjMzOTk5OTk5OTk5OTk3NSw4LjMyMDAwMDAwMDAwMDA1LDguMTM5OTk5OTk5OTk5OTg2LDguNTYwMDAwMDAwMDAwMDAyLDguMzAwMDAwMDAwMDAwMDExLDguMzM5OTk5OTk5OTk5OTc1LDguMzM5OTk5OTk5OTk5OTc1LDguMzIwMDAwMDAwMDAwMDUsOC4zMzk5OTk5OTk5OTk5NzUsOC4zMzk5OTk5OTk5OTk5NzUsOC4zMjAwMDAwMDAwMDAwNSw4LjMzOTk5OTk5OTk5OTk3NSw4LjMzOTk5OTk5OTk5OTk3NSw4LjIwMDAwMDAwMDAwMDA0NSwyNS4xMTk5OTk5OTk5OTk5NDgsNy43MDAwMDAwMDAwMDAwNDU1LDguMjQwMDAwMDAwMDAwMDA5LDkuMTM5OTk5OTk5OTk5OTg2LDguMjQwMDAwMDAwMDAwMDA5LDguMzYwMDAwMDAwMDAwMDE0LDguMzE5OTk5OTk5OTk5OTM2LDcuODYwMDAwMDAwMDAwMDE0LDguNzc5OTk5OTk5OTk5OTczLDguMzc5OTk5OTk5OTk5OTk1LDguMTIwMDAwMDAwMDAwMDA1LDguNTYwMDAwMDAwMDAwMDYsOC4yOTk5OTk5OTk5OTk5NTUsMjUsOC4xMzk5OTk5OTk5OTk5ODYsOC41NjAwMDAwMDAwMDAwNiw4LjI5OTk5OTk5OTk5OTk1NSw4LjEzOTk5OTk5OTk5OTk4Niw4LjU2MDAwMDAwMDAwMDA2LDguMDM5OTk5OTk5OTk5OTY0LDE2LjkyMDAwMDAwMDAwMDA3Myw4LjMzOTk5OTk5OTk5OTkxOCw4LjE4MDAwMDAwMDAwMDA2NCw4LjUxOTk5OTk5OTk5OTk4Miw4LjI5OTk5OTk5OTk5OTk1NSw4LjM0MDAwMDAwMDAwMDAzMiw4LjM0MDAwMDAwMDAwMDAzMiw4LjAxOTk5OTk5OTk5OTk4MiwxNi4xMzk5OTk5OTk5OTk5ODYsNTAuODQwMDAwMDAwMDAwMDMsOC4zMTk5OTk5OTk5OTk5MzYsOC4zNDAwMDAwMDAwMDAwMzIsMjUsNDkuODIwMDAwMDAwMDAwMDUsOC41Mzk5OTk5OTk5OTk5NjQsNy44NDAwMDAwMDAwMDAwMzIsMjUuNTM5OTk5OTk5OTk5OTY0LDguMjQwMDAwMDAwMDAwMDA5LDguMzYwMDAwMDAwMDAwMDE0LDguMzE5OTk5OTk5OTk5OTM2LDguMzQwMDAwMDAwMDAwMDMyLDguMDM5OTk5OTk5OTk5OTY0LDguNjYwMDAwMDAwMDAwMDgyLDguMjk5OTk5OTk5OTk5OTU1LDguMzM5OTk5OTk5OTk5OTE4LDI1LjAxOTk5OTk5OTk5OTk4Miw4LjMwMDAwMDAwMDAwMDE4Miw4LjEzOTk5OTk5OTk5OTg3Myw4LjU1OTk5OTk5OTk5OTk0NSwyNC42MDAwMDAwMDAwMDAxMzYsOC43NTk5OTk5OTk5OTk5OTEsOC4yNTk5OTk5OTk5OTk5OTEsOC4zMzk5OTk5OTk5OTk5MTgsMTYuNjgwMDAwMDAwMDAwMDY0LDguMzM5OTk5OTk5OTk5OTE4LDE2LjQ4MDAwMDAwMDAwMDAxOCw4LjAzOTk5OTk5OTk5OTk2NCw4Ljg2MDAwMDAwMDAwMDEyNyw4LjA3OTk5OTk5OTk5OTkyNyw3LjYyMDAwMDAwMDAwMDExOCw5LjMxOTk5OTk5OTk5OTkzNiw3Ljk0MDAwMDAwMDAwMDA1NSw4LjY3OTk5OTk5OTk5OTgzNiw4LjMwMDAwMDAwMDAwMDE4Miw4LjMzOTk5OTk5OTk5OTkxOCw3LjY2MDAwMDAwMDAwMDA4Miw5LjA3OTk5OTk5OTk5OTkyNyw3Ljc1OTk5OTk5OTk5OTk5MSwxNy4xNjAwMDAwMDAwMDAwODIsOC4zMzk5OTk5OTk5OTk5MTgsNy41Nzk5OTk5OTk5OTk5MjcsOS4xMDAwMDAwMDAwMDAxMzYsNy44OTk5OTk5OTk5OTk4NjQsMzMuNzc5OTk5OTk5OTk5OTcsOC4zMDAwMDAwMDAwMDAxODIsMTYuNjE5OTk5OTk5OTk5ODksOC40MDAwMDAwMDAwMDAwOTEsNy42MTk5OTk5OTk5OTk4OTEsOSw4LjM2MDAwMDAwMDAwMDEyNyw4LjMzOTk5OTk5OTk5OTkxOCw4LjMxOTk5OTk5OTk5OTkzNiw4LjM0MDAwMDAwMDAwMDE0Niw3LjQ1OTk5OTk5OTk5OTgwOSw5LjI4MDAwMDAwMDAwMDIsMTYuNDE5OTk5OTk5OTk5ODQ1LDguNTE5OTk5OTk5OTk5OTgyLDguMzIwMDAwMDAwMDAwMTY0LDguMTM5OTk5OTk5OTk5ODczLDguNTM5OTk5OTk5OTk5OTY0LDguMzIwMDAwMDAwMDAwMTY0LDguMzE5OTk5OTk5OTk5OTM2LDguMjAwMDAwMDAwMDAwMDQ1LDI1LjE1OTk5OTk5OTk5OTg1NCw4LjMyMDAwMDAwMDAwMDE2NCw4LjMzOTk5OTk5OTk5OTkxOCw4LjMxOTk5OTk5OTk5OTkzNiw4LjM0MDAwMDAwMDAwMDE0NiwxNS43OTk5OTk5OTk5OTk5NTUsOS4xMzk5OTk5OTk5OTk4NzMsOC4yODAwMDAwMDAwMDAyLDguNDU5OTk5OTk5OTk5ODA5LDguMzIwMDAwMDAwMDAwMTY0LDguMzE5OTk5OTk5OTk5OTM2LDguMzM5OTk5OTk5OTk5OTE4LDguMzQwMDAwMDAwMDAwMTQ2LDcuODk5OTk5OTk5OTk5ODY0XX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-12acf39bb1422db5e5a2",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-1920",
+              "projectName": "firefox-1920",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 986,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:38.506Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-f0ac290bd1c0a9429a5e",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-1920",
+              "projectName": "firefox-1920",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 788,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:40.066Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-ceb1e2136fecac26aed4",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-768",
+              "projectName": "firefox-768",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2446,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:41.275Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjIxMCwiZXZlbnREdXJhdGlvbnMiOltdLCJmcmFtZXMiOls4LjMxOTk5OTk5OTk5OTk5Myw4LjU2MDAwMDAwMDAwMDAwMiw4LjI5OTk5OTk5OTk5OTk5Nyw4LjM0MDAwMDAwMDAwMDAwMyw4LjM0MDAwMDAwMDAwMDAwMyw4LjMxOTk5OTk5OTk5OTk5Myw4LjM0MDAwMDAwMDAwMDAwMyw4LjM0MDAwMDAwMDAwMDAwMyw3LjUyMDAwMDAwMDAwMDAxLDguNzk5OTk5OTk5OTk5OTgzLDE2LjU5OTk5OTk5OTk5OTk5NCwzMy42MDAwMDAwMDAwMDAwMiw4LjQ3OTk5OTk5OTk5OTk5LDE2LjY1OTk5OTk5OTk5OTk5Nyw4LjMxOTk5OTk5OTk5OTk5Myw4LjM0MDAwMDAwMDAwMDAwMyw3Ljk1OTk5OTk5OTk5OTk3OTUsOC43NjAwMDAwMDAwMDAwNDgsOC4yNzk5OTk5OTk5OTk5NzMsOC4zNDAwMDAwMDAwMDAwMzIsOC4zMzk5OTk5OTk5OTk5NzUsNy44Mzk5OTk5OTk5OTk5NzUsOC44MjAwMDAwMDAwMDAwNSw4LjMxOTk5OTk5OTk5OTk5Myw4LjE1OTk5OTk5OTk5OTk2OCw4LjU0MDAwMDAwMDAwMDAyLDguMzE5OTk5OTk5OTk5OTkzLDguMTM5OTk5OTk5OTk5OTg2LDguNTQwMDAwMDAwMDAwMDIsMTYuNjU5OTk5OTk5OTk5OTY4LDguMzIwMDAwMDAwMDAwMDUsOC4zMzk5OTk5OTk5OTk5NzUsOC4xMzk5OTk5OTk5OTk5ODYsOC41NDAwMDAwMDAwMDAwMiw3LjU5OTk5OTk5OTk5OTk2Niw5LjEyMDAwMDAwMDAwMDAwNSw4LjI0MDAwMDAwMDAwMDAwOSw4LjM2MDAwMDAwMDAwMDAxNCw4LjMxOTk5OTk5OTk5OTk5Myw3LjU3OTk5OTk5OTk5OTk4NCw4LjkzOTk5OTk5OTk5OTk5OCw3Ljc0MDAwMDAwMDAwMDAwOSw5LjE2MDAwMDAwMDAwMDAyNSw4LjI0MDAwMDAwMDAwMDAwOSw4LjMzOTk5OTk5OTk5OTk3NSw4LjM0MDAwMDAwMDAwMDAzMiw4LjMxOTk5OTk5OTk5OTk5Myw4LjE3OTk5OTk5OTk5OTk1LDguNTE5OTk5OTk5OTk5OTgyLDguMzAwMDAwMDAwMDAwMDY4LDguMTU5OTk5OTk5OTk5OTY4LDguNTM5OTk5OTk5OTk5OTY0LDguMjAwMDAwMDAwMDAwMDQ1LDguNDYwMDAwMDAwMDAwMDM2LDguMTIwMDAwMDAwMDAwMDA1LDguMTU5OTk5OTk5OTk5OTY4LDguNzQwMDAwMDAwMDAwMDA5LDguMjk5OTk5OTk5OTk5OTU1LDguMzQwMDAwMDAwMDAwMDMyLDguMTM5OTk5OTk5OTk5OTg2LDguNTM5OTk5OTk5OTk5OTY0LDcuNzgwMDAwMDAwMDAwMDg2LDguNzQwMDAwMDAwMDAwMDA5LDguNDU5OTk5OTk5OTk5OTIzLDguMzIwMDAwMDAwMDAwMDUsOCw4LjA3OTk5OTk5OTk5OTkyNyw5LDguMjYwMDAwMDAwMDAwMTA1LDcuNTc5OTk5OTk5OTk5OTI3LDkuMTU5OTk5OTk5OTk5OTY4LDcuNzYwMDAwMDAwMDAwMTA1LDguODk5OTk5OTk5OTk5OTc3LDguMjU5OTk5OTk5OTk5OTkxLDguMTk5OTk5OTk5OTk5OTMyLDguNSw4LjMwMDAwMDAwMDAwMDA2OCw4LjE1OTk5OTk5OTk5OTk2OCw4LjUzOTk5OTk5OTk5OTk2NCw4LjMwMDAwMDAwMDAwMDA2OCw3LjcyMDAwMDAwMDAwMDAyNyw5LjAxOTk5OTk5OTk5OTk4Miw4LjI1OTk5OTk5OTk5OTk5MSw4LjM0MDAwMDAwMDAwMDAzMiw4LjMzOTk5OTk5OTk5OTkxOCw4LjMyMDAwMDAwMDAwMDA1LDguMjIwMDAwMDAwMDAwMDI3LDguNDU5OTk5OTk5OTk5OTIzLDguMzIwMDAwMDAwMDAwMDUsOC4zNDAwMDAwMDAwMDAwMzIsOC4zMzk5OTk5OTk5OTk5MTgsOC4zMjAwMDAwMDAwMDAwNSw4LjE1OTk5OTk5OTk5OTk2OCw4LjUzOTk5OTk5OTk5OTk2NCw4LjMwMDAwMDAwMDAwMDA2OCw4LjE5OTk5OTk5OTk5OTkzMiw3Ljk0MDAwMDAwMDAwMDA1NSw4LjkxOTk5OTk5OTk5OTk1OSw3LjQ2MDAwMDAwMDAwMDAzNiw5LjIyMDAwMDAwMDAwMDAyNyw4LjI1OTk5OTk5OTk5OTk5MSw4LjE1OTk5OTk5OTk5OTk2OCw4LjAzOTk5OTk5OTk5OTk2NCw4Ljg2MDAwMDAwMDAwMDAxNCwwLDguMjgwMDAwMDAwMDAwMDg2LDcuNDM5OTk5OTk5OTk5OTQxLDkuMjk5OTk5OTk5OTk5OTU1LDguMjQwMDAwMDAwMDAwMDA5LDguMzYwMDAwMDAwMDAwMTI3LDguMzE5OTk5OTk5OTk5OTM2LDguMzM5OTk5OTk5OTk5OTE4LDguMzQwMDAwMDAwMDAwMTQ2LDE2LjYxOTk5OTk5OTk5OTg5LDguMzgwMDAwMDAwMDAwMTEsOC4zMTk5OTk5OTk5OTk5MzYsOC4zMzk5OTk5OTk5OTk5MTgsNy40MjAwMDAwMDAwMDAwNzMsOC45NjAwMDAwMDAwMDAwMzYsOC42NTk5OTk5OTk5OTk4NTQsOC4yODAwMDAwMDAwMDAyLDguMzM5OTk5OTk5OTk5OTE4LDguMzM5OTk5OTk5OTk5OTE4LDguMzQwMDAwMDAwMDAwMTQ2LDguMDU5OTk5OTk5OTk5OTQ1LDguNjE5OTk5OTk5OTk5ODksOC4zMDAwMDAwMDAwMDAxODIsOC4xNzk5OTk5OTk5OTk4MzYsOC4zNjAwMDAwMDAwMDAxMjcsOC4wMzk5OTk5OTk5OTk5NjQsOC4wNTk5OTk5OTk5OTk5NDUsOC4xMjAwMDAwMDAwMDAxMTgsOS4zMTk5OTk5OTk5OTk5MzYsOC4yNTk5OTk5OTk5OTk5OTEsOC4xNjAwMDAwMDAwMDAwODIsOC41Mzk5OTk5OTk5OTk5NjQsMTYuNDYwMDAwMDAwMDAwMDM2LDguNTM5OTk5OTk5OTk5OTY0LDguMjk5OTk5OTk5OTk5OTU1LDguMjAwMDAwMDAwMDAwMDQ1LDguNDgwMDAwMDAwMDAwMDE4LDguMzE5OTk5OTk5OTk5OTM2LDcuNzIwMDAwMDAwMDAwMDI3LDguMjQwMDAwMDAwMDAwMDA5LDkuMTE5OTk5OTk5OTk5ODksOC4yNTk5OTk5OTk5OTk5OTEsOC4zNDAwMDAwMDAwMDAxNDYsOC4zMTk5OTk5OTk5OTk5MzYsNy45MDAwMDAwMDAwMDAwOTEsOC44MTk5OTk5OTk5OTk5MzYsNy41NTk5OTk5OTk5OTk5NDUsOS4xNDAwMDAwMDAwMDAxLDcuOTE5OTk5OTk5OTk5ODQ1LDcuOTYwMDAwMDAwMDAwMDM2LDguODgwMDAwMDAwMDAwMTEsOC41LDguMzE5OTk5OTk5OTk5OTM2LDguMTYwMDAwMDAwMDAwMDgyLDguNTM5OTk5OTk5OTk5OTY0LDcuMzc5OTk5OTk5OTk5ODgyLDguNzIwMDAwMDAwMDAwMDI3LDMzLjg4MDAwMDAwMDAwMDExLDguMzE5OTk5OTk5OTk5OTM2LDcuNTM5OTk5OTk5OTk5OTY0LDkuMTYwMDAwMDAwMDAwMDgyLDguMjk5OTk5OTk5OTk5OTU1LDguMTYwMDAwMDAwMDAwMDgyLDguNTE5OTk5OTk5OTk5OTgyLDguMzE5OTk5OTk5OTk5OTM2LDguMTYwMDAwMDAwMDAwMDgyLDguNTE5OTk5OTk5OTk5OTgyLDguMzE5OTk5OTk5OTk5OTM2LDcuNTk5OTk5OTk5OTk5OTA5LDkuMTAwMDAwMDAwMDAwMTM2LDguMjk5OTk5OTk5OTk5OTU1LDcuNzc5OTk5OTk5OTk5OTczLDguOTYwMDAwMDAwMDAwMDM2LDguMjU5OTk5OTk5OTk5OTkxLDguMTE5OTk5OTk5OTk5ODksOC41ODAwMDAwMDAwMDAxNTUsNy40ODAwMDAwMDAwMDAwMTgsOS4yMjAwMDAwMDAwMDAwMjcsOC4yNTk5OTk5OTk5OTk5OTEsMTYuNSw4LjUxOTk5OTk5OTk5OTk4Miw4LjAxOTk5OTk5OTk5OTk4Miw4LjQ2MDAwMDAwMDAwMDAzNiw4LjUxOTk5OTk5OTk5OTk4MiwxNi40ODAwMDAwMDAwMDAwMTgsOC4wNzk5OTk5OTk5OTk5MjcsOC4xNjAwMDAwMDAwMDAwODIsOC42MTk5OTk5OTk5OTk4OSw4LjY4MDAwMDAwMDAwMDA2NCw4LjI5OTk5OTk5OTk5OTk1NSw4LjMzOTk5OTk5OTk5OTkxOCw4LjI0MDAwMDAwMDAwMDAwOSw4LjQ0MDAwMDAwMDAwMDA1NSw4LjI5OTk5OTk5OTk5OTk1NSw3LjkwMDAwMDAwMDAwMDA5MSw4LjgzOTk5OTk5OTk5OTkxOF19"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-e73d3abf9c7762e9ff9d",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-768",
+              "projectName": "firefox-768",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1235,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:41.502Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-a0ad2ea9744e31685e8a",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-768",
+              "projectName": "firefox-768",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 859,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:43.267Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-c1f2224a7263a57a63b4",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-390",
+              "projectName": "firefox-390",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2171,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:44.571Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjE0OSwiZXZlbnREdXJhdGlvbnMiOltdLCJmcmFtZXMiOlsxNy4yOCw4LjE1OTk5OTk5OTk5OTk5Nyw4LjUzOTk5OTk5OTk5OTk5Miw4LjMwMDAwMDAwMDAwMDAxMSw4LjE3OTk5OTk5OTk5OTk3OCw4LjUsNy42MjAwMDAwMDAwMDAwMDQ1LDkuMTIwMDAwMDAwMDAwMDA1LDguMjQwMDAwMDAwMDAwMDA5LDguMzQwMDAwMDAwMDAwMDAzLDguMTc5OTk5OTk5OTk5OTc4LDE2LjgyMDAwMDAwMDAwMDAyLDcuNDU5OTk5OTk5OTk5OTc5NSw5LjI4MDAwMDAwMDAwMDAzLDguMjU5OTk5OTk5OTk5OTkxLDguMTU5OTk5OTk5OTk5OTY4LDguNTIwMDAwMDAwMDAwMDM5LDcuNjIwMDAwMDAwMDAwMDA0NSw5LjAzOTk5OTk5OTk5OTk2NCw4LjI4MDAwMDAwMDAwMDAzLDguMzc5OTk5OTk5OTk5OTk1LDguMzM5OTk5OTk5OTk5OTc1LDguMTgwMDAwMDAwMDAwMDA3LDguNDgwMDAwMDAwMDAwMDE4LDcuNTc5OTk5OTk5OTk5OTg0LDkuMTYwMDAwMDAwMDAwMDI1LDguMjU5OTk5OTk5OTk5OTkxLDguMzM5OTk5OTk5OTk5OTc1LDguMzE5OTk5OTk5OTk5OTkzLDguMzQwMDAwMDAwMDAwMDMyLDguMzM5OTk5OTk5OTk5OTc1LDguMzE5OTk5OTk5OTk5OTkzLDguMzQwMDAwMDAwMDAwMDMyLDguMTU5OTk5OTk5OTk5OTY4LDguNTIwMDAwMDAwMDAwMDM5LDcuNzM5OTk5OTk5OTk5OTUyLDguOTgwMDAwMDAwMDAwMDE4LDguMjU5OTk5OTk5OTk5OTkxLDguMzQwMDAwMDAwMDAwMDMyLDAsOC4xODAwMDAwMDAwMDAwMDcsOC41LDguMzE5OTk5OTk5OTk5OTkzLDguMTU5OTk5OTk5OTk5OTY4LDguNTE5OTk5OTk5OTk5OTgyLDguMzIwMDAwMDAwMDAwMDUsOC4xNzk5OTk5OTk5OTk5NSw4LjQ4MDAwMDAwMDAwMDAxOCw4LjM0MDAwMDAwMDAwMDAzMiw4LjE5OTk5OTk5OTk5OTkzMiw4LjQ4MDAwMDAwMDAwMDAxOCw4LjMyMDAwMDAwMDAwMDA1LDguMzQwMDAwMDAwMDAwMDMyLDguMzE5OTk5OTk5OTk5OTM2LDguMzQwMDAwMDAwMDAwMDMyLDguMzQwMDAwMDAwMDAwMDMyLDguMzM5OTk5OTk5OTk5OTE4LDguMzIwMDAwMDAwMDAwMDUsOC4zNDAwMDAwMDAwMDAwMzIsOC4zMTk5OTk5OTk5OTk5MzYsOC4zNDAwMDAwMDAwMDAwMzIsMCw3LjkzOTk5OTk5OTk5OTk0MSw4Ljc4MDAwMDAwMDAwMDA4Niw4LjI3OTk5OTk5OTk5OTk3Myw4LjM0MDAwMDAwMDAwMDAzMiw4LjMxOTk5OTk5OTk5OTkzNiw4LjM0MDAwMDAwMDAwMDAzMiw3Ljc3OTk5OTk5OTk5OTk3Myw4Ljk2MDAwMDAwMDAwMDAzNiw4LjI1OTk5OTk5OTk5OTk5MSw3Ljg2MDAwMDAwMDAwMDAxNCw4LjAxOTk5OTk5OTk5OTk4Miw5LjIwMDAwMDAwMDAwMDA0NSw4LjIzOTk5OTk5OTk5OTg5NSw4LjA2MDAwMDAwMDAwMDA2LDguNjU5OTk5OTk5OTk5OTY4LDguMjc5OTk5OTk5OTk5OTczLDguMTAwMDAwMDAwMDAwMDIzLDguNjAwMDAwMDAwMDAwMDIzLDguMjk5OTk5OTk5OTk5OTU1LDcuOTgwMDAwMDAwMDAwMDE4LDguNzQwMDAwMDAwMDAwMDA5LDguMTIwMDAwMDAwMDAwMDA1LDguMzIwMDAwMDAwMDAwMDUsOC41Mzk5OTk5OTk5OTk5NjQsOC4zMjAwMDAwMDAwMDAwNSw4LjMxOTk5OTk5OTk5OTkzNiw4LjM0MDAwMDAwMDAwMDAzMiw4LjE1OTk5OTk5OTk5OTk2OCw4LjIwMDAwMDAwMDAwMDA0NSw4LjY3OTk5OTk5OTk5OTk1LDguMTM5OTk5OTk5OTk5OTg2LDguMzQwMDAwMDAwMDAwMDMyLDguNSw4LjEzOTk5OTk5OTk5OTk4Niw3LjkyMDAwMDAwMDAwMDA3Myw4LjkxOTk5OTk5OTk5OTk1OSw4LjMxOTk5OTk5OTk5OTkzNiw4LjM0MDAwMDAwMDAwMDAzMiw4LjM0MDAwMDAwMDAwMDAzMiw4LjE1OTk5OTk5OTk5OTk2OCw4LjUxOTk5OTk5OTk5OTk4Miw4LjMyMDAwMDAwMDAwMDA1LDguMzE5OTk5OTk5OTk5OTM2LDguMzQwMDAwMDAwMDAwMDMyLDguMzQwMDAwMDAwMDAwMDMyLDguMzQwMDAwMDAwMDAwMDMyLDguMjQwMDAwMDAwMDAwMDA5LDcuODc5OTk5OTk5OTk5ODgyLDguNzAwMDAwMDAwMDAwMDQ1LDguNTE5OTk5OTk5OTk5OTgyLDguMjk5OTk5OTk5OTk5OTU1LDguMjIwMDAwMDAwMDAwMDI3LDcuNTgwMDAwMDAwMDAwMTU1LDguMjk5OTk5OTk5OTk5OTU1LDguODk5OTk5OTk5OTk5ODY0LDguNzIwMDAwMDAwMDAwMDI3LDguMjk5OTk5OTk5OTk5OTU1LDguMzQwMDAwMDAwMDAwMTQ2LDguMzE5OTk5OTk5OTk5OTM2LDguMzM5OTk5OTk5OTk5OTE4LDguMzIwMDAwMDAwMDAwMTY0LDcuNSw5LjA3OTk5OTk5OTk5OTkyNyw4LjI0MDAwMDAwMDAwMDAwOSw3Ljc1OTk5OTk5OTk5OTk5MSw5LjE4MDAwMDAwMDAwMDA2NCw4LjI0MDAwMDAwMDAwMDAwOSw4LjMzOTk5OTk5OTk5OTkxOCw3Ljk0MDAwMDAwMDAwMDA1NSw4LjIwMDAwMDAwMDAwMDA0NSw4LjA5OTk5OTk5OTk5OTkwOSw5LjE4MDAwMDAwMDAwMDA2NCw4LjI0MDAwMDAwMDAwMDAwOSw4LjM1OTk5OTk5OTk5OTksOC4zMTk5OTk5OTk5OTk5MzYsOC4xNjAwMDAwMDAwMDAwODIsNy45MDAwMDAwMDAwMDAwOTEsOS4wMTk5OTk5OTk5OTk5ODIsNy42NTk5OTk5OTk5OTk4NTQ1LDguMzAwMDAwMDAwMDAwMTgyLDkuMDU5OTk5OTk5OTk5OTQ1LDguMDc5OTk5OTk5OTk5OTI3LDcuNzQwMDAwMDAwMDAwMDA5LDkuMTYwMDAwMDAwMDAwMDgyLDguMjQwMDAwMDAwMDAwMDA5LDcuNzIwMDAwMDAwMDAwMDI3LDkuMDM5OTk5OTk5OTk5OTY0LDguMDU5OTk5OTk5OTk5OTQ1LDguNTM5OTk5OTk5OTk5OTY0LDguMzE5OTk5OTk5OTk5OTM2LDguMTQwMDAwMDAwMDAwMSw4LjUzOTk5OTk5OTk5OTk2NCw3LjYyMDAwMDAwMDAwMDExOCw4Ljg1OTk5OTk5OTk5OTksOC41MTk5OTk5OTk5OTk5ODIsNy42NDAwMDAwMDAwMDAxLDguODk5OTk5OTk5OTk5ODY0LDguNDQwMDAwMDAwMDAwMDU1LDguMzM5OTk5OTk5OTk5OTE4LDguMTYwMDAwMDAwMDAwMDgyLDcuODM5OTk5OTk5OTk5OTE4LDkuMDgwMDAwMDAwMDAwMTU1LDguMjQwMDAwMDAwMDAwMDA5LDcuNTk5OTk5OTk5OTk5OTA5LDguMjQwMDAwMDAwMDAwMDA5LDksOC41MTk5OTk5OTk5OTk5ODIsOC4zMTk5OTk5OTk5OTk5MzYsOC4xODAwMDAwMDAwMDAwNjRdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-cfa7a0de18bf00358a3f",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-390",
+              "projectName": "firefox-390",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1025,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:44.619Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-780da316c100f736e6d2",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox-390",
+              "projectName": "firefox-390",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 642,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:46.555Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-3577e0a5db12d39dc732",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-1440",
+              "projectName": "webkit-1440",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1797,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:47.593Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjE1MywiZXZlbnREdXJhdGlvbnMiOlsxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwxNiwxNiwxNiwxNl0sImZyYW1lcyI6WzI5LDE2LDUsMTcsMTcsMTYsMTcsMTYsMTcsMSwxNiwxNiwxLDE2LDE3LDE2LDEsMTYsMTcsMTYsMTcsMSwxNiwxNiwxNywxNiwxLDEsMTUsMTcsMTcsMTYsMSwxNiwxNywxNiwxLDIwLDEzLDE2LDEsMSwxOSwxMywxNiwxLDIwLDEzLDE2LDIyLDEyLDEsMTUsMjcsNywxNiwxLDI2LDYsMTcsMTcsMTIsNSwxNiwxNywxNiwxNywxNywxNiwxNywxNywxNywxNiwxNywxNywxNiwxNywxOCwxNSwxNywxNywxNiwxNywxNywxOCwxNSwxOSwxNCw4NCw3XX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-485775c7d252acf808d5",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-1440",
+              "projectName": "webkit-1440",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 562,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:47.664Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-3d578815c6e203eaad41",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-1440",
+              "projectName": "webkit-1440",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 630,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:48.359Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-9aefbfedffe4153b437a",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-1920",
+              "projectName": "webkit-1920",
+              "results": [
+                {
+                  "workerIndex": 18,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:49.222Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjEyOCwiZXZlbnREdXJhdGlvbnMiOlsxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwzMiwzMiwzMiwzMiwzMiwzMiwzMiwzMiwzMiwxNiwxNiwxNiwxNiwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwyNCwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwyNCwyNCwyNCwyNF0sImZyYW1lcyI6WzIzLDE2LDcsMTUsMTcsMTksMTQsMSwxLDE1LDIwLDE0LDEsMTUsMjUsOSwxNywxLDMyLDE3LDE2LDIzLDExLDE2LDEsMjcsMTEsMTEsMTcsMSwxNywxNSwxNiwyMiwxMiwxLDEsMTUsMzEsMywxNiwxNiwxLDIzLDEwLDE3LDI2LDEsMSw1LDE2LDE3LDE4LDE1LDE3LDEsMSwyMCwxMSwxNywxLDI0LDgsMTcsMjcsMSw2LDE1LDE4LDEsMTcsMSwxNCwxNiwyOCw2LDE2LDE3LDE3LDE3LDE2LDIyLDEyLDE2LDM3LDEzLDE3LDI3LDYsMTcsMTcsMTksMTQsMTksMTksMTIsMTcsMTI0LDE2LDEwXX0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-eb7e80986d211670a21d",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-1920",
+              "projectName": "webkit-1920",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 434,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:49.861Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-46c22ea6bc8197761f5f",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-1920",
+              "projectName": "webkit-1920",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 711,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:50.445Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-cf4cdf43274c830852c1",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-768",
+              "projectName": "webkit-768",
+              "results": [
+                {
+                  "workerIndex": 20,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1670,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:51.412Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjE1MSwiZXZlbnREdXJhdGlvbnMiOlsyNCwyNCwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNl0sImZyYW1lcyI6WzI4LDEzLDEzLDEyLDIzLDEwLDE3LDIyLDEsMSwxMCwxNiwyMiwxLDEwLDE3LDIwLDEzLDEsMTUsMjEsMTMsMTcsMSwxNiwxNiwxNiwxNywxLDE2LDE3LDE3LDEsMTUsMTcsMTcsMTYsMSwxLDE1LDE3LDE2LDE3LDEsMTUsMTcsMTcsMSwxNiwxNiwxNiwxOCwxNiwxLDEsMTUsMTcsMTcsMTYsMSwxMCw2LDE3LDE2LDEsMTAsNiwxNywxNiwxNywxNiwxNywxNywxNiwyNiw4LDE2LDI3LDcsMTYsMTcsMTcsMTYsMjYsOSwxNSwyNCwxMCwxNiwyNCw5LDYwLDIsNl19"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-5ea8c9618249e3c1735d",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-768",
+              "projectName": "webkit-768",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 459,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:51.461Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-208287640992c085566d",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-768",
+              "projectName": "webkit-768",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 656,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:52.066Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-00f84b4453add66c1452",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "forward/reverse chapters, rapid scroll, resize and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 22,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1525,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:52.966Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "lab-metrics",
+                      "contentType": "application/json",
+                      "body": "eyJzdXBwb3J0ZWQiOlsiZXZlbnQiLCJmaXJzdC1pbnB1dCIsImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsIm1hcmsiLCJtZWFzdXJlIiwibmF2aWdhdGlvbiIsInBhaW50IiwicmVzb3VyY2UiXSwiY2xzIjowLCJsY3AiOjExMiwiZXZlbnREdXJhdGlvbnMiOlsxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNiwxNl0sImZyYW1lcyI6WzE5LDE1LDE0LDE3LDE2LDE4LDEsMTUsMTYsMSwxNywxNiwxNywxLDE2LDMwLDMsMTcsMTYsMSwxNiwxNywxNywxNiwxLDEsMTUsMjIsMTEsMTcsMSwxOSwxMywxNywxNywxLDEsMTQsMTcsMTYsMTcsMSwxNSwxNywxNywxLDE2LDE2LDE3LDI0LDEsOCwxNywyMCwxMywxLDMsMTMsMTcsMTYsMTcsMSwxNiwxNiwxNywxNiwxNywxNywxNiwxNywyMywxMSwxNiwyMCwxNCwxNiwxNywxNiwxNywxNywxNiwxNywxNywxNywyMiwxMSwyMl19"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-84c2450895180149efeb",
+          "file": "experience.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "OS reduced motion and failed manifest preserve the story",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 23,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 375,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:53.547Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-378ac23fb60662143402",
+          "file": "experience.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "synthetic approved sequence: draw, DPR, seek, failed assets and mode teardown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit-390",
+              "projectName": "webkit-390",
+              "results": [
+                {
+                  "workerIndex": 23,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 546,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:36:54.067Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-7085decd5683313bb161",
+          "file": "experience.spec.ts",
+          "line": 63,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T09:36:27.383Z",
+    "duration": 27283.629,
+    "expected": 36,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

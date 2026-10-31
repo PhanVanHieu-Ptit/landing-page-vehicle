@@ -1,0 +1,14 @@
+.chapter { composes: chapter from './IntroChapter.module.css'; grid-template-rows: 1fr auto; }
+.media { composes: media from './IntroChapter.module.css'; }
+.shade { composes: shade from './IntroChapter.module.css'; }
+.copy { composes: copy from './IntroChapter.module.css'; }
+.eyebrow { composes: eyebrow from './IntroChapter.module.css'; }
+.headline { composes: headline from './IntroChapter.module.css'; }
+.description { composes: description from './IntroChapter.module.css'; }
+.footer { composes: footer from './IntroChapter.module.css'; }
+.next { composes: next from './IntroChapter.module.css'; }
+.veil { position: absolute; inset: 0; z-index: -2; background: var(--color-background); opacity: var(--reveal-cover, 1); pointer-events: none; }
+.chapter[data-motion='reduced'] .veil, .chapter[data-motion='static'] .veil { display: none; }
+@media (prefers-reduced-motion: reduce), (max-height: 499px), (forced-colors: active) {
+  .veil { display: none; }
+}
