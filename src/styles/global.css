@@ -1,0 +1,26 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { font-family: var(--font-body); background: var(--color-background); color: var(--color-text); scroll-behavior: auto; -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-width: 0; font-size: var(--text-body); line-height: var(--leading-body); overflow-wrap: anywhere; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: var(--leading-title); text-wrap: balance; }
+h1 { font-size: var(--text-title); }
+h2 { font-size: clamp(2rem, 1.5rem + 2vw, 4rem); }
+h3 { font-size: 1.5rem; }
+a { color: inherit; text-underline-offset: 0.2em; }
+button, input, select, textarea { font: inherit; }
+button, input, select, textarea, summary { max-width: 100%; }
+button { min-height: var(--control-min); min-width: var(--control-min); padding: var(--space-2) var(--space-4); border: 1px solid var(--color-border); border-radius: var(--radius-control); background: var(--color-surface); color: var(--color-text); cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+main:focus, section:focus { outline: 2px solid var(--color-focus); outline-offset: 4px; }
+img, video, canvas, svg { max-width: 100%; }
+img, video { height: auto; }
+[hidden] { display: none !important; }
+::selection { background: var(--color-accent); color: var(--color-background); }
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within, html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+@media (forced-colors: active) {
+  :focus-visible { outline-color: Highlight; }
+  button { border-color: ButtonText; }
+}

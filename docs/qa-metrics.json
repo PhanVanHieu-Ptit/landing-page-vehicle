@@ -1,0 +1,110 @@
+[
+  {
+    "project": "chromium-1440",
+    "cls": 0.0428,
+    "lcp_ms": 92,
+    "event_max_ms": 48,
+    "raf_p95_ms": 16.8,
+    "raf_max_ms": 33.3,
+    "samples": 77
+  },
+  {
+    "project": "chromium-1920",
+    "cls": 0.0391,
+    "lcp_ms": 116,
+    "event_max_ms": 48,
+    "raf_p95_ms": 16.8,
+    "raf_max_ms": 33.3,
+    "samples": 78
+  },
+  {
+    "project": "chromium-768",
+    "cls": 0.0382,
+    "lcp_ms": 52,
+    "event_max_ms": 48,
+    "raf_p95_ms": 16.7,
+    "raf_max_ms": 33.4,
+    "samples": 68
+  },
+  {
+    "project": "chromium-390",
+    "cls": 0.0317,
+    "lcp_ms": 48,
+    "event_max_ms": 48,
+    "raf_p95_ms": 16.7,
+    "raf_max_ms": 33.4,
+    "samples": 67
+  },
+  {
+    "project": "firefox-1440",
+    "cls": null,
+    "lcp_ms": 98,
+    "event_max_ms": null,
+    "raf_p95_ms": 9.3,
+    "raf_max_ms": 25.1,
+    "samples": 154
+  },
+  {
+    "project": "firefox-1920",
+    "cls": null,
+    "lcp_ms": 85,
+    "event_max_ms": null,
+    "raf_p95_ms": 16.7,
+    "raf_max_ms": 42,
+    "samples": 139
+  },
+  {
+    "project": "firefox-768",
+    "cls": null,
+    "lcp_ms": 111,
+    "event_max_ms": null,
+    "raf_p95_ms": 9.2,
+    "raf_max_ms": 16.7,
+    "samples": 150
+  },
+  {
+    "project": "firefox-390",
+    "cls": null,
+    "lcp_ms": 71,
+    "event_max_ms": null,
+    "raf_p95_ms": 9.2,
+    "raf_max_ms": 17.5,
+    "samples": 132
+  },
+  {
+    "project": "webkit-1440",
+    "cls": null,
+    "lcp_ms": 148,
+    "event_max_ms": 24,
+    "raf_p95_ms": 27,
+    "raf_max_ms": 82,
+    "samples": 85
+  },
+  {
+    "project": "webkit-1920",
+    "cls": null,
+    "lcp_ms": 109,
+    "event_max_ms": 24,
+    "raf_p95_ms": 33,
+    "raf_max_ms": 116,
+    "samples": 86
+  },
+  {
+    "project": "webkit-768",
+    "cls": null,
+    "lcp_ms": 107,
+    "event_max_ms": 16,
+    "raf_p95_ms": 21,
+    "raf_max_ms": 55,
+    "samples": 93
+  },
+  {
+    "project": "webkit-390",
+    "cls": null,
+    "lcp_ms": 104,
+    "event_max_ms": 16,
+    "raf_p95_ms": 20,
+    "raf_max_ms": 24,
+    "samples": 86
+  }
+]
