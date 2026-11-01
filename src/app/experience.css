@@ -6,3 +6,7 @@
 @media(max-width:767px){.gt-images img,.grand-tourer[data-static=true] .gt-static-image{object-fit:contain;object-position:50% 76%}.gt-copy{top:20%}.grand-tourer[data-static=true] .gt-panel{background:#100f0e}.grand-tourer[data-static=true] .gt-static-image{z-index:-1}}
 /* Chapter text switches as a single readable layer, even after rapid reverse seeks. */
 .gt-panel{transition:none}
+/* Shared study selector stays available in both cinematic and still modes. */
+.gt-study-controls{display:flex;align-items:center;gap:28px}.gt-study-switch{display:flex;gap:18px}.gt-study-switch a{font-size:9px;text-transform:uppercase;letter-spacing:.12em;color:#a9a49a;padding:10px 0;border-bottom:1px solid transparent}.gt-study-switch a[aria-current]{color:var(--ivory);border-color:var(--gold)}.grand-tourer[data-vehicle=motorcycle] .gt-images img{object-position:60% center}.grand-tourer[data-vehicle=motorcycle] .gt-vignette{background:linear-gradient(90deg,#100f0eb3,transparent 75%),linear-gradient(0deg,#100f0ee8,transparent 35%)}
+@media(max-width:1100px){.gt-study-controls .gt-header-note{display:none}}
+@media(max-width:767px){.gt-study-switch{gap:12px}.gt-study-switch a{font-size:8px;letter-spacing:.04em}.gt-header{flex-wrap:wrap;gap:15px}.gt-study-controls{order:3;width:100%;justify-content:center}.gt-edition{top:150px}.grand-tourer[data-vehicle=motorcycle] .gt-images img{object-position:50% 76%}}
